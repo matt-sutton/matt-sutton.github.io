@@ -8,7 +8,7 @@ permalink: /people/
 
 I am a member of the following research groups:
 
-1. [ACEMS](http://acems.org.au/) (Centre of Excellence for Mathematical and Statistical frontiers)
+1. [ACEMS](http://acems.org.au/) (ARC Centre of Excellence for Mathematical and Statistical frontiers)
 2. [BRAG](https://bragqut.wordpress.com/) (Bayesian Research and Applications Group)
 
 Currently I work with an amazing group of researchers at the Queensland University of Technology (QUT).
@@ -42,9 +42,13 @@ biology and the analysis of high throughput (‘OMICs’) data.
 <img style="float: right;" src="/assets/img/Kerrie-profile.jpg" style="border: none;" width="200px" height="250px">
 </div>
 <p>
-<strong>Dr. Kerrie Mengersen</strong> is a Professor at the
+<strong>Dr. Kerrie Mengersen</strong> is a Distinguished Professor at the
 Queensland University of Technology and a
-deputy director of ACEMS. Her interests focus on using
+deputy director of ACEMS. In 2016 she was awarded the Pitman Medal
+by the Statistical Society of Australia, and was the first woman
+to recieve it. Professor Mengersen was announced as one of the 15 new
+ARC Laureate Fellows in 2015 for her project: Bayesian Learning for Decision Making
+in the Big Data Era. Her interests focus on using
 and develping new statistical and computational methods
 to help solve complex real world problems. Her methodological
 interests include Bayesian statistics, hierarchical modelling and
