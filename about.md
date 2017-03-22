@@ -6,8 +6,8 @@ permalink: /about/
 
 <strong>Matthew Sutton</strong> received the Bachelor of Science and Bachelor
 of Arts degree in Statistics and
-Mathematics from the University of Queensland in
-2014. He is currently a PhD student in the school
+Mathematics from the University of Queensland in 2014.
+He is currently a PhD student in the school
 of Mathematical Sciences, Queensland University
 of Technology.
 
