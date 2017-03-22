@@ -25,6 +25,17 @@ body {
     font-kerning: normal;
 }
 
+/**
+ * centered
+ */
+
+.centered {
+    margin: 0 auto;
+    text-align: left;
+    width: 800px;
+}
+
+
 
 
 /**
@@ -171,7 +182,6 @@ pre {
         padding-left: $spacing-unit / 2;
     }
 }
-
 
 
 /**

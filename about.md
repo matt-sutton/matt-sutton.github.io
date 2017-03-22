@@ -4,12 +4,23 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+<strong>Matthew Sutton</strong> received the Bachelor of Science and Bachelor
+of Arts degree in Statistics and
+Mathematics from the University of Queensland in
+2014. He is currently a PhD student in the school
+of Mathematical Sciences, Queensland University
+of Technology.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+In addition, he is a member of
+ACEMS (Centre of Excellence for Mathematical
+and Statistical Frontiers). His research focuses on
+developing new statistical and machine learning methods
+to analyse clinical heath and biological data.
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+His research interests focus on using:
+
+* variable selection methods,
+* Bayesian computation and,
+* convex optimisation
+
+to tackle high-dimensional problems.

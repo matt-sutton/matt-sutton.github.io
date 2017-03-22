@@ -4,20 +4,32 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <div style="float: left; padding-right: 50px; padding-top: 0px;">
+       <img src="/assets/img/profile-image-circular.png" style="border: none;" width="200px" height="200px"></img>
+  </div>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+    <p><strong>Matthew Sutton  </strong>
+      <br>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+      PhD student in statistics at Queensland University of Technology, <br>
+      Gardens Point, Brisbane Australia.
+
+      </br>
+      <br>
+
+
+      <br>
+      School of Mathematics <br>
+      Y-803, 2 George St, <br>
+      Brisbane City QLD 4000
+      </br>
+      <br>
+
+
+      <br>
+      Email me at: <a href="mailto:matt.sutton@qut.edu.au" "email me">matt.sutton@qut.edu.au</a><br>
+      </br>
+    </p>
 
 </div>

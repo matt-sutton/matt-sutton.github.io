@@ -1,0 +1,30 @@
+---
+layout: default
+title: Articles
+permalink: /articles/
+---
+
+<div class="home">
+
+  <h1>Articles</h1>
+
+  <p>
+    Some short articles and code I found interesting...
+    <br>
+    <br>
+  </p>
+
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>
