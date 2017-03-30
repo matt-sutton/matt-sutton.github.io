@@ -1,8 +1,10 @@
 ---
-layout: page
+layout: default
 title: About
 permalink: /about/
 ---
+
+# About
 
 <strong>Matthew Sutton</strong> received the Bachelor of Science and Bachelor
 of Arts degree in Statistics and

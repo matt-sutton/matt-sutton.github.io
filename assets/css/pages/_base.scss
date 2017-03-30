@@ -9,7 +9,6 @@ dl, dd, ol, ul, figure {
 }
 
 
-
 /**
  * Basic styling
  */
@@ -46,6 +45,7 @@ p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
     margin-bottom: $spacing-unit / 2;
+    margin-top: $spacing-unit / 2;
 }
 
 
@@ -58,7 +58,29 @@ img {
     vertical-align: middle;
 }
 
+/**
+ * Images display for Mobile phones
+ */
 
+@media only screen and (max-width:480px) {
+  img {
+    display:block;
+    float:none;
+    margin:0 auto 20px !important;
+  }
+}
+
+
+/**
+ * lines
+ */
+
+hr {
+  border-color: inherit;
+  max-width: 80%;
+  border-top: 1px solid #ccc;
+  margin:20px auto 30px !important;
+}
 
 /**
  * Figures
@@ -93,7 +115,9 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
+    font-family: $head-font-family;
     font-weight: $base-font-weight;
+    color: $head-color;
 }
 
 
@@ -102,11 +126,11 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $brand-color;
+    color: $link-color;
     text-decoration: none;
 
     &:visited {
-        color: darken($brand-color, 15%);
+        color: darken($link-color, 15%);
     }
 
     &:hover {

@@ -16,10 +16,9 @@ Currently I work with an amazing group of researchers at the Queensland Universi
 <br>
 
 # My Supervisors
+<img src="/assets/img/Benoit-profile.jpg" align="left"
+       width="200px" height="260px" border="0" style="Margin:0px 50px 0px 0px"/>
 
-<div style="float: left; padding-right: 50px; padding-top: 0px;">
-<img style="float: right;" src="/assets/img/Benoit-profile.jpg" style="border: none;" width="200px" height="270px">
-</div>
 <p>
 <strong>Dr. Benoit Liquet</strong> is a Professor at
 Universite de Pau et Pays de l’Adour. In
@@ -34,13 +33,12 @@ dimension reduction methods, Bayesian analysis and big data.
 More recently, his interests have moved to the field of computational
 biology and the analysis of high throughput (‘OMICs’) data.
 </p>
-[click here for more information](https://sites.google.com/site/benoitliquet/home)
+[click here for more information](http://benoit-liquet.github.io/)
 
-<br>
+<br><br><br>
 
-<div style="float: left; padding-right: 50px; padding-top: 0px;">
-<img style="float: right;" src="/assets/img/Kerrie-profile.jpg" style="border: none;" width="200px" height="250px">
-</div>
+<img src="/assets/img/Kerrie-profile.jpg" align="left"
+      width="200px" height="260px" border="0" style="Margin:0px 50px 0px 0px"/>
 <p>
 <strong>Dr. Kerrie Mengersen</strong> is a Distinguished Professor at the
 Queensland University of Technology and a
@@ -48,14 +46,12 @@ deputy director of ACEMS. In 2016 she was awarded the Pitman Medal
 by the Statistical Society of Australia, and was the first woman
 to recieve it. Professor Mengersen was announced as one of the 15 new
 ARC Laureate Fellows in 2015 for her project: Bayesian Learning for Decision Making
-in the Big Data Era. Her interests focus on using
-and develping new statistical and computational methods
-to help solve complex real world problems. Her methodological
+in the Big Data Era. Her research focuses on the application and
+development of new statistical and computational methods
+to solve complex real world problems. Her methodological
 interests include Bayesian statistics, hierarchical modelling and
 complex systems. Her applied interests are primarily in the areas
 of health, environment and industry.
-<br>
-<br>
 <br>
 </p>
 [click here for more information](https://bragqut.wordpress.com/mengersen/)
