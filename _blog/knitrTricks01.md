@@ -2,7 +2,6 @@
 title: "Hacking the Knitr Button"
 layout: post
 page_number: 1
-knit: source('../knit_function.R')$value
 ---
 
 
