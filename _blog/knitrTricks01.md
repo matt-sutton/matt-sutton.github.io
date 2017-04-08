@@ -1,6 +1,6 @@
 ---
 title: "Hacking the Knitr Button"
-layout: post
+layout: default
 page_number: 1
 ---
 
