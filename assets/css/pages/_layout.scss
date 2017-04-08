@@ -207,23 +207,25 @@
  */
 .post-header {
     margin-bottom: $spacing-unit;
+    border-bottom: 1px solid $grey-color-light;
 }
 
 .post-title {
-    font-size: 42px;
+    font-family: $base-font-family;
+    font-size: 31.5px;
     letter-spacing: -1px;
     line-height: 1;
+    font-weight: bold;
 
     @include media-query($on-laptop) {
-        font-size: 36px;
+        font-size: 30px;
     }
 }
 
 .post-content {
     margin-bottom: $spacing-unit;
-
     h2 {
-        font-size: 32px;
+        font-size: 28px;
 
         @include media-query($on-laptop) {
             font-size: 28px;
@@ -231,7 +233,7 @@
     }
 
     h3 {
-        font-size: 26px;
+        font-size: 22px;
 
         @include media-query($on-laptop) {
             font-size: 22px;

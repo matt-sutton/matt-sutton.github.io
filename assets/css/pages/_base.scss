@@ -79,7 +79,7 @@ hr {
   border-color: inherit;
   max-width: 80%;
   border-top: 1px solid #ccc;
-  margin:20px auto 30px !important;
+  margin:20px auto 40px !important;
 }
 
 /**
@@ -92,6 +92,37 @@ figure > img {
 figcaption {
     font-size: $small-font-size;
 }
+
+
+/**
+ * Tables
+ */
+table {
+  /**text-align:center;
+  margin-left:auto;
+  margin-right:auto;**/
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+  background-color: transparent;
+  display: table;
+  border-color: gray;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+  th {
+    display: table-cell;
+    border-top: 0;
+    vertical-align: bottom;
+    border-bottom: 2px solid #ddd;
+  }
+  td {
+    font-size: 14px;
+    padding: 5px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+  }
 
 
 
@@ -116,7 +147,8 @@ li {
  */
 h1, h2, h3, h4, h5, h6 {
     font-family: $head-font-family;
-    font-weight: $base-font-weight;
+    margin-top: $spacing-unit;
+    font-weight: 500;
     color: $head-color;
 }
 
@@ -140,6 +172,31 @@ a {
 }
 
 
+.fw_btn {
+  font: bold 11px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 4px 10px 4px 10px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+  float: right;
+}
+
+.bw_btn {
+  font: bold 11px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 4px 10px 4px 10px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+  float: left;
+}
 
 /**
  * Blockquotes
@@ -164,7 +221,7 @@ blockquote {
  */
 pre,
 code {
-    font-size: 15px;
+    font-size: 14px;
     border: 1px solid $grey-color-light;
     border-radius: 3px;
     background-color: #eef;

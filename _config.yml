@@ -21,3 +21,10 @@ markdown: kramdown
 sass:
   sass_dir: assets/css
   style: :nested
+
+exclude:
+  - "*.Rmd"
+
+collections:
+  blog:
+    output: true

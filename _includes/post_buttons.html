@@ -1,0 +1,11 @@
+{% if page.next %}
+
+  <a href="{{ page.next.url }}", class="fw_btn">Next Page</a>
+
+{% endif %}
+
+{% if page.previous %}
+
+  <a href="{{ page.previous.url }}", class="bw_btn">Previous Page</a>
+
+{% endif %}

@@ -18,8 +18,7 @@ and Statistical frontiers) and the Queensland University of Technology (QUT):
 
 <hr>
 
-
-# Selected Publications
+## Selected Publications
 
 
 ### Reffereed Journals

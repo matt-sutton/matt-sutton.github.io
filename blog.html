@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Articles
-permalink: /articles/
+title: Blog
+permalink: /blog/
 ---
 
 <div class="home">
 
-  <h1>Articles</h1>
+  <h1>Blog</h1>
 
   <p>
     Some short articles and code I found interesting...
@@ -16,14 +16,12 @@ permalink: /articles/
 
 
   <ul class="post-list">
-    {% for post in site.posts %}
+    {% for post in site.blog %}{% if post.page_number  == 1 %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
       </li>
+    {% endif %}
     {% endfor %}
   </ul>
 
