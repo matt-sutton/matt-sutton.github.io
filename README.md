@@ -1,3 +1,3 @@
 # About
-Personal website of Matthew Sutton
+Personal website of Matthew Sutton.
 
