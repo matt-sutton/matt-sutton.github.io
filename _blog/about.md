@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 page_number: 1
 title: Cheeck it
 ---
