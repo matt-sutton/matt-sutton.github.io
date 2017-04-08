@@ -1,8 +1,7 @@
 ---
 layout: default
 page_number: 1
-title: About
-permalink: /about/
+title: Cheeck it
 ---
 
 # About
