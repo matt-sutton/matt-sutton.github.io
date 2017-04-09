@@ -10,13 +10,13 @@ layout: default
   <div class="post-content" itemprop="articleBody">
     {{ content }}
 
-    {% if page.next %}
+    {% if page.next and page.next.post == page.post %}
 
       <a href="{{ page.next.url }}", class="fw_btn">Next Page</a>
 
     {% endif %}
 
-    {% if page.previous %}
+    {% if page.previous and page.previous.post == page.post %}
 
       <a href="{{ page.previous.url }}", class="bw_btn">Previous Page</a>
 

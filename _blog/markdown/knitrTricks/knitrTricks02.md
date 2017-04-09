@@ -5,13 +5,12 @@ post: "knitrTricks"
 knit: source(rprojroot::is_git_root$find_file('R','knit_function.R'))$value
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+
 
 The first example illustrated how the knitr button can be customised to change the output location in a standardised way. Notable extensions for this method include changing the knitr button script to run a makefile using @yihui's servr package 
 
-```{r, eval=FALSE}
+
+```r
 knit_function <- function(inputFile, encoding) { 
   servr::make(dir="path containing Makefile")
 }
@@ -23,7 +22,8 @@ changing the output file name, importing a common set of packages (provided this
 
 An interesting extension to the knit button would allow for knit-ing multiple documents together with a single click. For the sake of simplicity we will assume that these documents are located in the same directory. For example consider the following file structure:
 
-```{r, eval=FALSE}
+
+```r
  - data/
     |- human.dat
  - analysis/
@@ -38,7 +38,8 @@ here the final analysis should contain both the svm analysis and the neural net 
 
 This leads to the following file structure:
 
-```{r, eval=FALSE}
+
+```r
  - data/
     |- human.dat
  - analysis/
@@ -60,7 +61,8 @@ The preview.pdf file would preview the section currently being written. The file
 
 To facilitate this, we could introduce a term in the yaml describing the output directory (relative to the project root) and a term describing which files to combine. For example:
 
-```{r, eval=FALSE}
+
+```r
 ---
 title: "Report human"
 out_dir: "reports"

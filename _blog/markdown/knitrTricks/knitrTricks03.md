@@ -5,13 +5,12 @@ post: "knitrTricks"
 knit: source(rprojroot::is_git_root$find_file('R','knit_function.R'))$value
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+
 
 The following knit funciton provides a solution to the previously described problem.
 
-```{r, eval=FALSE}
+
+```r
 knit_function <- function(inputFile, encoding) {
   ## Get root directory location
   root <- rprojroot::is_git_root;
