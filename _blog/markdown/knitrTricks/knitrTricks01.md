@@ -2,6 +2,7 @@
 title: "Hacking the Knitr Button"
 layout: post
 post: "knitrTricks"
+type: "Tutorial"
 page_number: 1
 knit: source(rprojroot::is_git_root$find_file('R','knit_function.R'))$value
 ---

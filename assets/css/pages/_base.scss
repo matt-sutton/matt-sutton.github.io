@@ -58,6 +58,13 @@ img {
     vertical-align: middle;
 }
 
+.figure{
+  max-height: 200px;
+  display:block;
+  float:none;
+  margin:0 auto 0px !important;
+}
+
 /**
  * Images display for Mobile phones
  */
@@ -87,6 +94,7 @@ hr {
  */
 figure > img {
     display: block;
+    margin:0 auto;
 }
 
 figcaption {

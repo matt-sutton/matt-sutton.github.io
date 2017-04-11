@@ -18,7 +18,7 @@ permalink: /blog/
   <ul class="post-list">
     {% for post in site.blog %}{% if post.page_number  == 1 %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} (<small>{{ post.type }}</small>)</span>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </li>
     {% endif %}
