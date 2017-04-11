@@ -73,6 +73,8 @@
 
 .highlight {
     background: #f5f5f5;
+    border-left-color: #6699cc;
+
     @extend %vertical-rhythm;
 
     .highlighter-rouge & {
