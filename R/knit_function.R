@@ -18,6 +18,5 @@ knit_function <- function(inputFile, encoding) {
   md_file <- knitr::knit(inputFile,encoding = encoding);
 }
 
-## Knitr custom funciton inspired from https://github.com/yihui/knitr/issues/965
-# Adress problem mentioned here: https://github.com/yihui/knitr/issues/913
-# and here: https://github.com/rstudio/rmarkdown/issues/587
+## Custom knit function for Rmd and Jekyll:
+###    https://matt-sutton.github.io/blog/markdown/knitrTricks/knitrTricks01.html
