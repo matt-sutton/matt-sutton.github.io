@@ -2,6 +2,7 @@
 title: "Interesting Links"
 layout: post
 post: "Links"
+comments: true
 page_number: 1
 type: "A collection of research based links"
 knit: source(rprojroot::is_git_root$find_file('R','knit_function.R'))$value
