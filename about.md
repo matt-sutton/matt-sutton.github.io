@@ -6,23 +6,6 @@ permalink: /about/
 
 # About
 
-<strong>Matthew Sutton</strong> received the Bachelor of Science and Bachelor
-of Arts degree in Statistics and
-Mathematics from the University of Queensland in 2014.
-He is currently a PhD student in the school
-of Mathematical Sciences, Queensland University
-of Technology.
+<strong>Matthew Sutton</strong> completed his PhD in 2019 developing new statistical methods to analyse high dimensional data from clinical heath and biological problems. He worked as a postdoc at Lancaster University as part of the multi-university Bayes4Health grant in the United Kingdom. 
 
-In addition, he is a member of
-ACEMS (Centre of Excellence for Mathematical
-and Statistical Frontiers). His research focuses on
-developing new statistical and machine learning methods
-to analyse clinical heath and biological data.
-
-His research interests focus on using:
-
-* variable selection methods,
-* Bayesian computation and,
-* convex optimisation
-
-to tackle high-dimensional problems.
+His research interests span broadly across Monte Carlo methods, high dimensional statistics and Bayesian methodology. A particular focus of his current research is in the development of continuous-time Monte Carlo methods for speeding up the computation required for Bayesian inference. He is a currently working on the Models and Algorithms research program for the centre.
