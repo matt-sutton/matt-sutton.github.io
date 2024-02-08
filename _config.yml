@@ -9,7 +9,7 @@
 title: Home
 email: matt.sutton@qut.edu.au
 description: > # this means to ignore newlines until "baseurl:"
-  Matthew Sutton PhD student in statistics at Queensland University of Technology
+  Matthew Sutton Lecturer at Queensland University of Technology
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 github_username:  matt-sutton
