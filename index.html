@@ -12,19 +12,44 @@ layout: default
     <p>
       <h2>Matthew Sutton</h2>
 
-      I am a Lecturer in the school of <a href="https://www.qut.edu.au/about/our-people/academic-profiles/matt.sutton" target="_blank">mathematical sciences at QUT</a>. My research interests span broadly across Monte Carlo methods, high-dimensional statistics, and Bayesian methodology. Currently, I working on the development of continuous-time Monte Carlo methods to expedite the computation required for Bayesian inference. I am currently working on the Models and Algorithms research program for the <a href="https://research.qut.edu.au/qutcds/staff/matt-sutton/" target="_blank">center of data science</a>.
-.
+      I'm a Lecturer in the school of <a href="https://www.qut.edu.au/about/our-people/academic-profiles/matt.sutton" target="_blank">mathematical sciences at QUT</a>. My research interests span broadly across Monte Carlo methods, high-dimensional statistics, and Bayesian methodology. I am currently working on the Models and Algorithms research program for the <a href="https://research.qut.edu.au/qutcds/staff/matt-sutton/" target="_blank">center for data science</a>. 
 
       </br>
       <br>
 
 
-      <br>
-      School of Mathematics <br>
-      Y-803, 2 George St, <br>
-      Brisbane City QLD 4000
-      </br>
-      <br>
+<p>My current research directions are in developing fast Monte Carlo methods. I've been recently working on a class of algorithms known as Piecewise Deterministic Markov Processes (PDMPs). These produce a Markov process instead of the standard Markov chain used in classical Markov Chain Monte Carlo (MCMC) and have a number of very interesting properties. They are able to:</p>
+
+  <ol>
+    <li>Scale to big data challenges via sub-sampling the full data without sacrificing properties like asymptotic exactness.</li>
+    <li>They are non-reversible, using gradient information to improve mixing properties.</li>
+    <li>They can sample problems where the gradient is undefined in some known regions of space.</li>
+    <li>Can be constructed as continuous-time limits of existing MCMC methods.</li>
+  </ol>
+
+  <p>Below is an illustration of a simple PDMP known as the Zig-Zag process:</p>
+
+  <img src="https://github.com/matt-sutton/ccpdmp/raw/main/animations/ZigZag.gif" alt="ZigZag Animation"  style="width: 50%; height: auto;">
+
+  <h2>In-Press</h2>
+
+  <ul>
+    <li><a href="http://arxiv.org/abs/2306.15422">Corenflos, A., Sutton, M., & Chopin, N. Debiasing Piecewise Deterministic Markov Process samplers using couplings. In arXiv [stat.CO].</a></li>
+  </ul>
+
+  <h2>Publications</h2>
+
+  <ul>
+    <li><a href="https://proceedings.neurips.cc/paper_files/paper/2022/hash/b5b939436789f76f08b9d0da5e81af7c-Abstract-Conference.html">Sutton, M., Salomone, R., Chevallier, A., & Fearnhead, P. (2022). Continuously tempered PDMP samplers. Advances in Neural Information Processing Systems.</a></li>
+    <li><a href="https://doi.org/10.1080/01621459.2022.2099402">Chevallier, A., Fearnhead, P., & Sutton, M. (2023). Reversible Jump PDMP Samplers for Variable Selection. Journal of the American Statistical Association, 118(544), 2915–2927.</a></li>
+    <li><a href="https://doi.org/10.1080/10618600.2023.2203735">Sutton, M., & Fearnhead, P. (2023). Concave-Convex PDMP-based Sampling. Journal of Computational and Graphical Statistics: A Joint Publication of American Statistical Association, Institute of Mathematical Statistics, Interface Foundation of North America, 32(4), 1425–1435.</a></li>
+    <li><a href="https://proceedings.mlr.press/v206/davies23a.html">Davies, L., Salomone, R., Sutton, M., & Drovandi, C. (2022). Transport Reversible Jump Proposals. International Conference on Artificial Intelligence and Statistics, vol. 206, pp. 6839–6852.</a></li>
+    <li><a href="https://doi.org/10.1186/s12874-021-01491-8">Sutton, M., Sugier, P.-E., Truong, T., & Liquet, B. (2022). Leveraging pleiotropic association using sparse group variable selection in genomics data. BMC Medical Research Methodology, 22(1), 9.</a></li>
+    <li><a href="https://doi.org/10.1214/19-SS125">de Micheaux, P. L., Liquet, B., & Sutton, M. (2019). PLS for Big Data: A unified parallel algorithm for regularised group PLS. Statistics Surveys, 13(none), 119–149.</a></li>
+    <li><a href="https://doi.org/10.1002/sim.7821">Sutton, M., Thiébaut, R., & Liquet, B. (2018). Sparse partial least squares with group and subgroup structure. Statistics in Medicine, 37(23), 3338–3356.</a></li>
+    <li><a href="https://doi.org/10.1214/17-BA1081">Liquet, B., Mengersen, K., Pettitt, A. N., & Sutton, M. (2017). Bayesian Variable Selection Regression of Multivariate Responses for Group Data. Bayesian Analysis, 12(4), 1039–1067.</a></li>
+    <li><a href="http://espace.library.uq.edu.au/view/UQ:333454">Billington, Elizabeth J., Khodkar, Abdollah, Petrusma, Dylan and <strong>Sutton, Matthew</strong> (2014) Lambda-fold theta graphs: Metamorphosis into 6-cycles. AKCE International Journal of Graphs and Combinatorics, 11 1: 81-94.</a> [<strong>UQ student access only</strong>]</li>
+  </ul>
 
 
       <br>
